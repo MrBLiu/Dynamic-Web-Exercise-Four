@@ -18,3 +18,4 @@ if (!firebase.apps.length) { //checks to see if firebase exists/has already load
 //this gives you access to the firestore database
 const db = firebase.firestore()
 
+module.exports = router;
